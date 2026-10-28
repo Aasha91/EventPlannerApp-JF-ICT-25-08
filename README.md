@@ -40,7 +40,18 @@ The Event Planner App is an Android application that helps users create, organiz
 
 ## Screenshots
 
-Add 3–5 screenshots of the application here.
+### Home Screen
+
+[Home Screen](ScreenShots/Home.png)
+
+### Add Event Screen
+
+[Add Event Screen](ScreenShots/Add_Event.png)
+
+### Events List
+
+[Events List](ScreenShots/Events_List.png)
+
 
 Suggested screenshots:
 
