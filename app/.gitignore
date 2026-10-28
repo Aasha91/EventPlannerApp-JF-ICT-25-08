@@ -1,1 +1,20 @@
-/build
+# Android Studio
+
+.idea/
+*.iml
+
+# Gradle
+
+.gradle/
+/build/
+**/build/
+
+# Local machine configuration
+
+local.properties
+
+# Generated files
+
+captures/
+.externalNativeBuild/
+.cxx/
