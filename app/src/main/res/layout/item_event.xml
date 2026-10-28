@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="#FFFFFF"
+    android:elevation="3dp">
+
+    <TextView
+        android:id="@+id/eventNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthday Party"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"/>
+
+    <TextView
+        android:id="@+id/eventDateTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30/10/2026 • 06:00 PM"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/eventDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My birthday celebration"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/editEventButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/deleteEventButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

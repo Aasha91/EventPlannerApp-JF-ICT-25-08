@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New Event"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Name"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/eventNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter event name"
+            android:inputType="textCapSentences"
+            android:singleLine="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Date"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/selectDateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Time"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/selectTimeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/eventDescriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Describe your event"
+            android:gravity="top"
+            android:inputType="textCapSentences|textMultiLine"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/saveEventButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Event"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#673AB7"/>
+
+    </LinearLayout>
+
+</ScrollView>
